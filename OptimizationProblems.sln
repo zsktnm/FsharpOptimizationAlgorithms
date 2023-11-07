@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Greedy.MoneyExchange", "OptimizationProblems.Greedy.MoneyExchange\OptimizationProblems.Greedy.MoneyExchange.fsproj", "{949D7020-85BF-4075-AB17-D035907E8E67}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Greedy.MoneyExchange", "OptimizationProblems.Greedy.MoneyExchange\OptimizationProblems.Greedy.MoneyExchange.fsproj", "{949D7020-85BF-4075-AB17-D035907E8E67}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Greedy.MoneyExchange.Tests", "OptimizationProblems.Greedy.MoneyExchange.Tests\OptimizationProblems.Greedy.MoneyExchange.Tests.fsproj", "{1F411E2F-05E8-44EA-BF08-EF08727158AB}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Greedy.MoneyExchange.Tests", "OptimizationProblems.Greedy.MoneyExchange.Tests\OptimizationProblems.Greedy.MoneyExchange.Tests.fsproj", "{1F411E2F-05E8-44EA-BF08-EF08727158AB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Greedy.Bagpack", "OptimizationProblems.Greedy.Bagpack\OptimizationProblems.Greedy.Bagpack.fsproj", "{D914AEBD-5C2F-4A92-94C9-616765FD8910}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Greedy.Bagpack", "OptimizationProblems.Greedy.Bagpack\OptimizationProblems.Greedy.Bagpack.fsproj", "{D914AEBD-5C2F-4A92-94C9-616765FD8910}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Greedy.Bagpack.Tests", "OptimizationProblems.Greedy.Bagpack.Tests\OptimizationProblems.Greedy.Bagpack.Tests.fsproj", "{35E7DAC4-E351-4932-8F02-AF6CD5E585D9}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Greedy.Bagpack.Tests", "OptimizationProblems.Greedy.Bagpack.Tests\OptimizationProblems.Greedy.Bagpack.Tests.fsproj", "{35E7DAC4-E351-4932-8F02-AF6CD5E585D9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Greedy.SelectActivities", "OptimizationProblems.Greedy.SelectActivities\OptimizationProblems.Greedy.SelectActivities.fsproj", "{57F9F29F-5055-4A4C-BFD9-4060CC096B21}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Greedy.SelectActivities.Tests", "OptimizationProblems.Greedy.SelectActivities.Tests\OptimizationProblems.Greedy.SelectActivities.Tests.fsproj", "{7A57E230-4078-4267-8944-ADD038957099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{35E7DAC4-E351-4932-8F02-AF6CD5E585D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35E7DAC4-E351-4932-8F02-AF6CD5E585D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35E7DAC4-E351-4932-8F02-AF6CD5E585D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F9F29F-5055-4A4C-BFD9-4060CC096B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F9F29F-5055-4A4C-BFD9-4060CC096B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F9F29F-5055-4A4C-BFD9-4060CC096B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F9F29F-5055-4A4C-BFD9-4060CC096B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A57E230-4078-4267-8944-ADD038957099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A57E230-4078-4267-8944-ADD038957099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A57E230-4078-4267-8944-ADD038957099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A57E230-4078-4267-8944-ADD038957099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
