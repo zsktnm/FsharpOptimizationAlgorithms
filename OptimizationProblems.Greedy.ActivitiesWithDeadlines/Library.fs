@@ -5,20 +5,23 @@ type Activity = {
     Deadline: int;
 }
 
+
 let solve (activities: Activity list) =
     let rec loop time (list: Activity list) =
-        match time with
-        | 0 -> []
+        match (time, list.Length) with
+        | (-1, _) | (_, 0) -> []
         | _ -> 
             let selected = 
                 list
-                |> List.find (fun act -> act.Deadline > time) 
-        
-            let filtered = 
-                list
-                |> List.where (fun act -> act <> selected)
+                |> List.tryFind (fun act -> act.Deadline > time) 
 
-            selected :: loop (time - 1) filtered
+            match selected with
+            | None -> loop (time - 1) list
+            | Some activity ->
+                let filtered = 
+                    list
+                    |> List.where (fun act -> act <> activity)
+                activity :: loop (time - 1) filtered
         
 
     let time = 
