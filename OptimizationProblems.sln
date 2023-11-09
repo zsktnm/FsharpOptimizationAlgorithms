@@ -29,6 +29,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{54
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{38D07666-AF65-4D60-8BF6-738B733D960F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{0D207B9E-EF9B-49F4-A1FB-CFFE85725910}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Dynamic.Bagpack", "OptimizationProblems.Dynamic.Bagpack\OptimizationProblems.Dynamic.Bagpack.fsproj", "{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Dynamic.Bagpack.Tests", "OptimizationProblems.Dynamic.Bagpack.Tests\OptimizationProblems.Dynamic.Bagpack.Tests.fsproj", "{D3872283-1897-4FB8-BD36-F8D8781E808B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +81,14 @@ Global
 		{D56E4E01-2587-411D-B0FD-43AB84CD243D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D56E4E01-2587-411D-B0FD-43AB84CD243D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D56E4E01-2587-411D-B0FD-43AB84CD243D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
