@@ -20,4 +20,6 @@ let solve values result =
     values
     |> stepped
     |> List.collect (fun part -> loop [] part [])
+    |> List.map (fun solution -> solution |> List.sort)
     |> List.distinct
+    
