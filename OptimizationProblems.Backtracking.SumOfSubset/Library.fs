@@ -1,23 +1,23 @@
 ﻿module OptimizationProblems.Backtracking.SumOfSubset
 
 let solve values result =
-    failwith "not implemented yet"
-    let cutFirst list = 
-        match list |> List.length with
-        | 0 -> []
-        | _ -> list |> List.skip 1
+    let stepped list = 
+        list 
+        |> List.mapi (fun index _ -> list |> List.skip index)
 
     let rec loop choose queue results = 
-        printfn "%A %A %A" choose queue results
         let sum = choose |> List.sum
         match queue with 
         | [] -> results
-        | head :: tail when head + sum > result ->
-            loop choose tail results
-        | head :: tail when head + sum = result ->
-            loop choose  tail (choose :: results)
-        | head :: tail -> 
-            loop (head :: choose) (tail @ queue) results
+        | head :: tail when head + sum < result -> 
+            tail 
+            |> stepped
+            |> List.collect (fun part -> loop (head :: choose) part results)
+        | head :: _ when head + sum = result ->
+            (head :: choose) :: results
+        | _ -> results
 
-
-    loop [] values []
+    values
+    |> stepped
+    |> List.collect (fun part -> loop [] part [])
+    |> List.distinct
