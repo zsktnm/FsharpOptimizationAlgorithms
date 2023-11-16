@@ -57,6 +57,7 @@ let ``four items`` () =
     | Error _ -> Assert.Fail "Result returns error"
     | Ok value -> Assert.That(value, Is.EqualTo(expected))
 
+
 [<Test>]
 let ``seven items`` () =
     let weights = [| 2; 3; 5; 7; 1; 4; 1 |]
@@ -80,6 +81,7 @@ let ``invalid lengths`` () =
     match actual with
     | Error _ -> Assert.Pass ()
     | Ok value -> Assert.Fail ()
+
 
 [<Test>]
 let ``empty arrays`` () =

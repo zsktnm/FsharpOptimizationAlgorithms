@@ -31,9 +31,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{38D07666
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{0D207B9E-EF9B-49F4-A1FB-CFFE85725910}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Dynamic.Bagpack", "OptimizationProblems.Dynamic.Bagpack\OptimizationProblems.Dynamic.Bagpack.fsproj", "{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Dynamic.Bagpack", "OptimizationProblems.Dynamic.Bagpack\OptimizationProblems.Dynamic.Bagpack.fsproj", "{5E5663F4-DA07-42ED-97C7-96A8BFD939D7}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptimizationProblems.Dynamic.Bagpack.Tests", "OptimizationProblems.Dynamic.Bagpack.Tests\OptimizationProblems.Dynamic.Bagpack.Tests.fsproj", "{D3872283-1897-4FB8-BD36-F8D8781E808B}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Dynamic.Bagpack.Tests", "OptimizationProblems.Dynamic.Bagpack.Tests\OptimizationProblems.Dynamic.Bagpack.Tests.fsproj", "{D3872283-1897-4FB8-BD36-F8D8781E808B}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OptimizationProblems.Backtracking.SumOfSubset", "OptimizationProblems.Backtracking.SumOfSubset\OptimizationProblems.Backtracking.SumOfSubset.fsproj", "{0A3FA1FA-BFB3-4578-BCD1-FE7B346A2FEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backtracking", "Backtracking", "{53C2677F-CE46-4670-BDCC-3C5AF59F856E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,10 @@ Global
 		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3872283-1897-4FB8-BD36-F8D8781E808B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3FA1FA-BFB3-4578-BCD1-FE7B346A2FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3FA1FA-BFB3-4578-BCD1-FE7B346A2FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3FA1FA-BFB3-4578-BCD1-FE7B346A2FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3FA1FA-BFB3-4578-BCD1-FE7B346A2FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +114,9 @@ Global
 		{D56E4E01-2587-411D-B0FD-43AB84CD243D} = {38D07666-AF65-4D60-8BF6-738B733D960F}
 		{5463DE7E-3942-4520-ABB6-6D2FB0FA9608} = {9555797C-701D-494D-8D5D-1A89FBD68ADC}
 		{38D07666-AF65-4D60-8BF6-738B733D960F} = {9555797C-701D-494D-8D5D-1A89FBD68ADC}
+		{5E5663F4-DA07-42ED-97C7-96A8BFD939D7} = {0D207B9E-EF9B-49F4-A1FB-CFFE85725910}
+		{D3872283-1897-4FB8-BD36-F8D8781E808B} = {0D207B9E-EF9B-49F4-A1FB-CFFE85725910}
+		{0A3FA1FA-BFB3-4578-BCD1-FE7B346A2FEF} = {53C2677F-CE46-4670-BDCC-3C5AF59F856E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDC66B56-24C1-4D60-A797-E36454D81285}
