@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OptimizationProblems.Greedy.ActivitiesWithDeadlines\OptimizationProblems.Greedy.ActivitiesWithDeadlines.fsproj" />
+    <ProjectReference Include="..\..\Solutions\OptimizationProblems.Greedy.SelectActivities\OptimizationProblems.Greedy.SelectActivities.fsproj" />
   </ItemGroup>
 
 </Project>

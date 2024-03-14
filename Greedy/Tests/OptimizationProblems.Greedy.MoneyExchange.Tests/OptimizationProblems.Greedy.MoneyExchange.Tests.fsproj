@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="UnitTest1.fs" />
+    <Compile Include="Tests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OptimizationProblems.Greedy.OptimalMerge\OptimizationProblems.Greedy.OptimalMerge.fsproj" />
+    <ProjectReference Include="..\..\Solutions\OptimizationProblems.Greedy.MoneyExchange\OptimizationProblems.Greedy.MoneyExchange.fsproj" />
   </ItemGroup>
 
 </Project>

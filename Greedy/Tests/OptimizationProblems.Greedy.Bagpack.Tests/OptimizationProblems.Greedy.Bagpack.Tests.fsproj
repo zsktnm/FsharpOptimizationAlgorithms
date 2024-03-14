@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OptimizationProblems.Dynamic.Bagpack\OptimizationProblems.Dynamic.Bagpack.fsproj" />
+    <ProjectReference Include="..\..\Solutions\OptimizationProblems.Greedy.Bagpack\OptimizationProblems.Greedy.Bagpack.fsproj" />
   </ItemGroup>
 
 </Project>
